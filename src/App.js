@@ -11,7 +11,7 @@ function App() {
 
   const[records, setRecords] = useState([]) //We create an array of two items using React's useState hook. 'setRecords' will be used to change the
   
-  function(id, completed){
+  function toggleComplete(id, completed){
     setRecords((prevData) =>
       prevData.map((list) =>
         list.id === id ? { ...list, completed: !completed } : list
