@@ -2,8 +2,14 @@
     background-color: tan;
 }
 li {
+    background-color: gainsboro;
     text-align: left;
+    border: 5px solid tan;
+    padding-left: 28px;
+    width: auto;
   }
+
 .strike {
     text-decoration: line-through;
+    color: green;
   }
